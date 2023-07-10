@@ -7,7 +7,7 @@ from automation.create_folder import create_folder
 from automation.delete_user import delete_user
 from automation.sort_docs import sort_docs
 from automation.parse_files import parse_files
-from automation.menu_tasks import count_file_types, menu_tasks, exit_message
+from menu_tasks import count_file_types, menu_tasks
 
 
 def test_automation():
