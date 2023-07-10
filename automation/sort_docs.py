@@ -31,4 +31,4 @@ def sort_docs(folder_to_sort):
 if __name__ == "__main__":
     folder_to_sort = Prompt.ask("Enter folder to sort")
     sort_docs(folder_to_sort)
-    console.print("Documents sorted successfully!")
+    console.print("Documents sorted successfully")

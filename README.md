@@ -37,6 +37,7 @@ Automatically backing up specific folders.
 * TA and peer help.
 * Reviewing recorded lecture.
 * ChatGPT prompting.
+* Asked a friend who works as a dev for help with testing.
 
 
 ## Setup
@@ -57,6 +58,5 @@ No .env requirements; gitignore invludes venv.
 
 ## Tests
 
-Still need to add testing.
-
 * pytest tests/test_automation.py
+* Testing uses pytest's  `monkeypatch` and `capsys` fixtures.

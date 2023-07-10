@@ -27,3 +27,10 @@ def parse_files(log_file_path, target_directory):
   warnings_file.close()
 
   print("Log file parsed successfully!")
+
+if __name__ == "__main__":
+  log_file_path = Prompt.ask("Enter file path for message log")
+  if os.path.exists(log_file_path):
+     parse_files(log_file_path, "logs")
+  else:
+     console.print(f"File does not exist")

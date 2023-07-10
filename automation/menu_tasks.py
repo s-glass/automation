@@ -1,7 +1,6 @@
 from rich.console import Console
 from rich.prompt import Prompt
 import os
-import shutil
 import sys
 from automation.create_folder import create_folder
 from automation.delete_user import delete_user
@@ -60,3 +59,9 @@ def menu_tasks():
 
 def exit_message(message):
      sys.exit(message)
+
+if __name__ == "__main__":
+      try:
+           menu_tasks()
+      except KeyboardInterrupt:
+            exit_message("Exiting Menu")
